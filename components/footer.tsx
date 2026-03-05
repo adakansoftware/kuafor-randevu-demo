@@ -142,11 +142,24 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 border-t border-primary-foreground/10 pt-8 text-center">
-          <p className="text-sm text-primary-foreground/50">
-            {`© 2026 Bella Saç & Güzellik Salonu. Tüm hakları saklıdır.`}
-          </p>
-        </div>
+<div className="mt-12 border-t border-primary-foreground/10 pt-8 text-center">
+  <p className="text-sm text-primary-foreground/50">
+    © {new Date().getFullYear()} Bella Saç & Güzellik Salonu. Tüm hakları saklıdır.
+  </p>
+
+  <p className="mt-2 text-sm text-primary-foreground/60">
+    Web Tasarım:{" "}
+    <a
+      href="https://instagram.com/adakansoftware"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:underline"
+    >
+      Adakan Software
+    </a>
+  </p>
+</div>
+        
       </div>
     </footer>
   )
